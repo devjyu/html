@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 제목을 작성할 때 h시리즈 사용 -->
+    <h1>다람쥐 헌 쳇바퀴에 타고파</h1>
+    <h2>다람쥐 헌 쳇바퀴에 타고파</h2>
+    <h3>다람쥐 헌 쳇바퀴에 타고파</h3>
+    <h4>다람쥐 헌 쳇바퀴에 타고파</h4>
+    <h5>다람쥐 헌 쳇바퀴에 타고파</h5>
+    <h6>다람쥐 헌 쳇바퀴에 타고파</h6>
+
+    <hr />
+    <!-- 내용 -->
+    <p>안녕하세요. 제이본 입니다.</p>
+
+    <!-- 줄바꿈 -->
+    안녕<br />하세요
+
+    <hr />
+
+    <!-- 문단 -->
+    <div>
+      <p>dd</p>
+    </div>
+
+    <hr />
+
+    <!-- 중간에 글 넣을 때 -->
+    <p>
+      안녕하세요. <span style="background-color: yellow">제이본</span> 입니다.
+    </p>
+
+    <hr />
+
+    <!-- 내용을 숨겼다 보여줌 -->
+    <details>
+      <summary>설레이는 이 마음은 뭘까</summary>
+      <p>왠지 잠을 이룰수가 없어</p>
+    </details>
+
+    <hr />
+
+    <!-- 순서업는 목차 -->
+    <ul>
+      <li>사과</li>
+      <li>바나나</li>
+      <li>파인애플</li>
+    </ul>
+
+    <hr />
+
+    <!-- 순서있는 목차 -->
+    <ol>
+      <li>베인</li>
+      <li>그라가스</li>
+      <li>카직스</li>
+    </ol>
+
+    <hr />
+
+    <!-- 링크 -->
+    <a href="https://google.com" target="_blank">구글로 이동</a>
+
+    <hr />
+
+    <!-- 이미지 -->
+    <img src="https://zrr.kr/N9WI" alt="우주 오리" width="400" />
+
+    <hr />
+
+    <!-- 글씨 굵게 -->
+    <p>이 기차 번호는 <strong>999</strong> 입니다.</p>
+
+    <hr />
+
+    <!-- input -->
+    <!-- 한줄을 적을 때 사용 -->
+    <h1>텍스트입력</h1>
+    <!-- text가 제일 기본 -->
+    <input type="text" />
+    <h1>비밀번호 입력</h1>
+    <input type="password" />
+    <h1>체크박스 입력</h1>
+    <label>
+      <input type="checkbox" />
+      밥먹기
+    </label>
+    <h1>라디오 버튼</h1>
+    <label>
+      <!-- name기준으로 작동됨 -->
+      <!-- 해줘야 중복선택이 안됨 -->
+      <!-- checked를 해줘야 기본적으로 선택되어 있음 -->
+      <input type="radio" name="ok" checked />
+      예
+    </label>
+    <label>
+      <input type="radio" name="ok" />
+      아니오
+    </label>
+    <label>
+      <!-- 체크 못하게 하는 것 -->
+      <input type="radio" name="ok" disabled />
+      몰라요
+    </label>
+    <h1>이메일 입력</h1>
+    <input type="email" name="id" />
+    <h1>날짜 입력</h1>
+    <input type="date" name="date" />
+    <h1>파일 입력</h1>
+    <input type="file" name="id" />
+    <h1>범위 입력</h1>
+    <input type="range" name="id" />
+    <h1>색상 입력</h1>
+    <input type="color" />
+
+    <hr />
+
+    <fieldset>
+      <legend>로그인</legend>
+      <p>
+        <!-- input과 label을 연결해서 사용한 것 -->
+        <label for="userid">아이디</label>
+        <input type="text" id="userid" />
+      </p>
+      <p>
+        <label for="passwd">비밀번호</label>
+        <input type="password" id="passwd" />
+      </p>
+    </fieldset>
+
+    <hr>
+
+    <!-- 30글자 10줄 -->
+    <textarea cols="30" rows="10"></textarea>
+
+    <hr>
+
+    <!-- 버튼 -->
+    <button type="button">눌러주세요</button>
+
+    <hr>
+
+    <!-- 내페이지에 다른 페이지를 넣을 때 -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VaqjXbtsEj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <hr>
+
+    <!-- 오디오 -->
+    <audio src="https://zrr.kr/5Xik" controls></audio>
+
+    <hr>
+
+    <!-- 비디오 -->
+    <video src="https://zrr.kr/Mghf" controls width="400"></video>
+  </body>
+</html>
